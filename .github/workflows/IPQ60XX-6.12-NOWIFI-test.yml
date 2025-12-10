@@ -1,4 +1,4 @@
-name: IPQ60XX-6.12-NOWIFI
+name: IPQ60XX-6.12-NOWIFI-test
 
 on:
   workflow_dispatch:
@@ -12,7 +12,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: IPQ60XX-6.12-NOWIFI
+  FIRMWARE_TAG: IPQ60XX-6.12-NOWIFI-test
   TZ: Asia/Shanghai
 
 jobs:
